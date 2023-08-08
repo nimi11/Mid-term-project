@@ -1,0 +1,116 @@
+/* Add your styles here. Take it piece by piece! */
+
+.
+body{
+  color: black;
+  margin:30px;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+h1 {
+  font-family: "Moderat", sans-serif;
+}
+.masthead-categories-links{
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  list-style: none;
+  gap:30px;
+  font-family: SFMono-Regular,"Roboto Mono","Lucida Console",Monaco,Courier,monospace;
+}
+.masthead-categories-links a:hover{
+  color:orange;
+}
+.masthead-branding-logo{
+  position:absolute;
+  font-size:10px
+  
+  
+}
+.masthead-branding-tagline{
+  font-size:8px;
+  position: absolute;
+  margin-top:40px;
+  left:35px;
+  font-size:25px;
+
+  
+}
+
+.image-container{
+margin-left:30%;
+  width: 100%;
+  height:auto;
+  display:block;
+  margin-top: 50px;
+  padding:15px;
+
+}
+#line1 {
+  position: absolute;
+  width: calc(70% - 20px); /*Adjust this value to control line length */
+ height: 0.3px;
+  background-color: antiquewhite;
+  left: 50%;
+  transform: translateX(-29%);
+  top: 13%;
+}
+#line2{
+  position: absolute;
+  width: calc(70% - 20px); /*Adjust this value to control line length */
+ height: 0.3px;
+  background-color: antiquewhite;
+  left: 50%;
+  transform: translateX(-29%);
+  top: 23%; 
+}
+.bs-rubric{
+  position: absolute;
+  top:190px;
+  color:orange;
+  font-size: 20px;
+  font-family:"Input Mono",SFMono-Regular,"Roboto Mono","Lucida Console",Monaco,Courier,monospace ;
+}
+
+.bs-hed{ 
+  font-family:sans-serif;
+  position: absolute;
+  top:250px;
+  display: block;
+  max-width: 30%;
+  font-size: 30px;
+}
+.bs-dek{
+  position:absolute;
+  top:4px;
+  max-width:30%;
+  top:440px;
+}
+
+#big-story:hover .bs-hed{
+  color:orange;
+}
+#big-story:hover .bs-dek{
+  color:orange;
+}
+
+
+
+
+
+
+
+
+
+/* These styles are for the disclaimer -- leave them alone */
+
+.disclaimer {
+  margin: 1em;
+  padding: 4px;
+  border: 1px solid hotpink;
+}
+
